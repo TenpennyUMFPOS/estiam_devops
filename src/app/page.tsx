@@ -1,7 +1,13 @@
 
+import Link from 'next/link';
 
-export default function Home() {
+export default async function Home() {
+
   return (
-    <h1>ESTIAM DEVOPS</h1>
+    <main>
+      <h1>SUPP</h1>
+      <Link href={"/pages/register"}> Register </Link>
+
+    </main>
   );
 }
