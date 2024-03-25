@@ -1,13 +1,32 @@
+import AboutSectionOne from "@/components/About/AboutSectionOne";
+import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 
-import Link from 'next/link';
+import ScrollUp from "@/components/Common/ScrollUp";
+import Contact from "@/components/Contact";
+import Features from "@/components/Features";
+import Hero from "@/components/Hero";
+import Testimonials from "@/components/Testimonials";
+import ConversionForm from "@/app/conversion/page";
+import { Metadata } from "next";
 
-export default async function Home() {
+export const metadata: Metadata = {
+  title: "Crypto wallet",
+  description: "Exchange wallet crypto",
+  // other metadata
+};
 
+export default function Home() {
   return (
-    <main>
-      <h1>SUPP</h1>
-      <Link href={"/pages/register"}> Register </Link>
+    <>
+      <ScrollUp />
+      <Hero />
+      <Features />
 
-    </main>
+      <AboutSectionOne />
+      <AboutSectionTwo />
+      <Testimonials />
+
+      <Contact />
+    </>
   );
 }
