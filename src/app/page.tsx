@@ -12,7 +12,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Crypto wallet",
   description: "Exchange wallet crypto",
-  // other metadata
 };
 
 export default function Home() {
@@ -21,11 +20,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-
-      <AboutSectionOne />
-      <AboutSectionTwo />
       <Testimonials />
-
       <Contact />
     </>
   );
