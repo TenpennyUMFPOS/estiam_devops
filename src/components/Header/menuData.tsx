@@ -26,21 +26,14 @@ const menuData: Menu[] = [
     path: "/conversion",
     newTab: false,
   },
-
   {
     id: 5,
-    title: "register",
-    path: "/register",
-    newTab: false,
-  },
-  {
-    id: 6,
     title: "wallet",
     path: "/wallet",
     newTab: false,
   },
   {
-    id: 7,
+    id: 6,
     title: "statistique",
     path: "/statistique",
     newTab: false,
