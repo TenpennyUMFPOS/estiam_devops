@@ -11,14 +11,14 @@
   "dependencies": {
     "@prisma/client": "^5.11.0",
     "@vercel/postgres": "^0.7.2",
-      "@wagmi/core": "^2.6.9",
+    "@wagmi/core": "^2.6.9",
     "@walletconnect/web3-provider": "^1.8.0",
     "@web3modal/ethereum": "^2.7.1",
     "@web3modal/ethers": "^4.1.1",
     "@web3modal/react": "^2.7.1",
     "bcrypt": "^5.1.1",
- "ethers": "^6.11.1",
- "eslint": "^8.56.0",
+    "ethers": "^6.11.1",
+    "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
     "next": "14.1.4",
     "next-themes": "^0.3.0",
@@ -26,7 +26,7 @@
     "react": "^18",
     "react-dom": "^18",
     "web3": "^4.6.0",
-  "wagmi": "^2.5.12",
+    "wagmi": "^2.5.12",
     "web3modal": "^1.9.12"
   },
   "devDependencies": {
@@ -38,6 +38,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5",
     "prettier-plugin-tailwindcss": "^0.5.11"
-    
   }
 }
